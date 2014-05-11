@@ -105,23 +105,23 @@
   <project path="system/vold" name="platform/system/vold" revision="b2g_ics_1.2" />
 
   <!-- galaxy5 specific files -->
-  <project path="device/qcom/b2g_common" name="quic/lf/b2g/build" revision="master" />
+  <project path="device/qcom/b2g_common" remote="b2g" name="quic/lf/b2g/build" revision="master" />
 <!--  <project path="external/jsmin" name="quic/lf/b2g/external/jsmin" revision="cec896f0affaa0226c02605ad28d42df1bc0e393" /> -->
 <!--  <project path="device/qcom/common" remote="androidarmv6" name="device/qcom/common" /> -->
-  <project path="device/qcom/msm7x27" name="platform/vendor/qcom/msm7627a" revision="b2g_ics_1.2" />
+  <project path="device/qcom/msm7x27" remote="aosp" name="platform/vendor/qcom/msm7627a" revision="b2g_ics_1.2" />
 <!--  <project path="kernel" name="kernel/msm" revision="b2g_ics_1.2" /> -->
-  <project path="hardware/qcom/audio" remote="androidarmv6" name="platform/hardware/qcom/audio" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/bt" remote="androidarmv6" name="platform/hardware/qcom/bt" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/camera" remote="androidarmv6" name="platform/hardware/qcom/camera" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/display-lagacy" remote="androidarmv6" name="platform/hardware/qcom/display-lagacy" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/gps" remote="androidarmv6" name="platform/hardware/qcom/gps" />
-  <project path="hardware/qcom/media-lagacy" remote="androidarmv6" name="platform/hardware/qcom/media-lagacy" revision="b2g_ics_1.2" />
-  <project path="hardware/qcom/keymaster" remote="androidarmv6" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/msm8x74" remote="androidarmv6" name="platform/hardware/qcom/msm8x74" />
-  <project path="hardware/qcom/msm8960" remote="androidarmv6" name="platform/hardware/qcom/msm8960" />
-  <project path="hardware/qcom/power" remote="androidarmv6" name="platform/hardware/qcom/power" />
-  <project path="hardware/qcom/sensor" remote="androidarmv6" name="platform/hardware/qcom/sensors" />
-  <project path="hardware/qcom/wlan" remote="androidarmv6" name="platform/hardware/qcom/wlan" />
+  <project path="hardware/qcom/audio" remote="androidarmv6" name="hardware/qcom/audio" revision="b2g_ics_1.2" />
+  <project path="hardware/qcom/bt" remote="androidarmv6" name="hardware/qcom/bt" revision="b2g_ics_1.2" />
+  <project path="hardware/qcom/camera" remote="androidarmv6" name="hardware/qcom/camera" revision="b2g_ics_1.2" />
+  <project path="hardware/qcom/display-lagacy" remote="androidarmv6" name="hardware/qcom/display-lagacy" revision="b2g_ics_1.2" />
+  <project path="hardware/qcom/gps" remote="androidarmv6" name="hardware/qcom/gps" />
+  <project path="hardware/qcom/media-lagacy" remote="androidarmv6" name="hardware/qcom/media-lagacy" revision="b2g_ics_1.2" />
+  <project path="hardware/qcom/keymaster" remote="androidarmv6" name="hardware/qcom/keymaster" />
+  <project path="hardware/qcom/msm8x74" remote="androidarmv6" name="hardware/qcom/msm8x74" />
+  <project path="hardware/qcom/msm8960" remote="androidarmv6" name="hardware/qcom/msm8960" />
+  <project path="hardware/qcom/power" remote="androidarmv6" name="hardware/qcom/power" />
+  <project path="hardware/qcom/sensor" remote="androidarmv6" name="hardware/qcom/sensors" />
+  <project path="hardware/qcom/wlan" remote="androidarmv6" name="hardware/qcom/wlan" />
 <!--  <project path="hardware/msm7k" name="platform/hardware/msm7k" revision="b2g_ics_1.2" /> -->
   <project path="vendor/qcom/opensource/omx/mm-core" name="platform/vendor/qcom-opensource/omx/mm-core" />
   <project path="hardware/ril" remote="androidarmv6" name="platform/hardware/ril" revision="b2g_ics_1.2" />
